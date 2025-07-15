@@ -1,4 +1,3 @@
-
 #!/usr/bin/python3
 """export Json"""
 
@@ -22,4 +21,3 @@ if __name__ == "__main__":
                           "username": i["username"]} for j in todos]
     with open("todo_all_employees.json", 'w', encoding='utf-8') as f:
         f.write(json.dumps(data))
-
