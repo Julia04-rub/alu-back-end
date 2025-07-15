@@ -1,4 +1,3 @@
-
 #!/usr/bin/python3
 """export Json"""
 
@@ -25,4 +24,3 @@ if __name__ == "__main__":
     json_data = json.dumps({"{}".format(employee["id"]): data})
     with open("{}.json".format(employee["id"]), 'w', encoding='utf-8') as f:
         f.write(json_data)
-
